@@ -1,0 +1,35 @@
+
+#cartContainer{
+    display: flex;
+   margin: 5%;
+   padding: 1%;
+   justify-content: space-evenly;
+    
+}
+
+#myproducts{
+   display: block;
+    width: 60%;
+}
+
+#mypdts{
+    margin-top: 10px;
+    display:flex;
+    padding: 2px;
+    width: 100%;
+}
+
+#cartDec{
+    width: 100%;
+    margin-left: 30px;
+}
+
+.pdChild > img{
+    width: 150px;
+    height:150px;  
+}
+
+#mySummary{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
