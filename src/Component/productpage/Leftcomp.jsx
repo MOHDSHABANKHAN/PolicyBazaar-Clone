@@ -1,4 +1,3 @@
-import Leftitem from "./Leftitem"
 
 function Leftcomp(props){
     return (
@@ -17,11 +16,11 @@ function Leftcomp(props){
             <li style={{ marginBottom:"10px"}}>Walking</li>
         </ul>
         <ul className="ul" style={{listStyleType:"none", marginTop:"50px" , marginLeft:"-40px" }}>
-            <li style={{ marginBottom:"10px"}}>Gender <span> w</span></li>
-            <li style={{ marginBottom:"10px"}}>Sort By Price</li>
-            <li style={{ marginBottom:"10px"}}>Size</li>
-            <li style={{ marginBottom:"10px"}}>Color</li>
-            <li style={{ marginBottom:"10px"}}>Best For</li>
+            <div style={{ }}><li style={{display:"flex", justifyContent:"space-between", marginBottom:"10px", padding:"10px 0px 10px 0px"}}>Gender <span><img style={{marginBottom:"-5px"}} src="https://cdn.icon-icons.com/icons2/1673/PNG/512/chevrondownoutline_110911.png" alt="icon" width="30px"/></span></li></div>
+            <li style={{display:"flex", justifyContent:"space-between", marginBottom:"10px", padding:"10px 0px 10px 0px"}}>Sort By Price<span><img style={{marginBottom:"-5px"}} src="https://cdn.icon-icons.com/icons2/1673/PNG/512/chevrondownoutline_110911.png" alt="icon" width="30px"/></span></li>
+            <li style={{display:"flex", justifyContent:"space-between", marginBottom:"10px", padding:"10px 0px 10px 0px"}}>Size<span><img style={{marginBottom:"-5px"}} src="https://cdn.icon-icons.com/icons2/1673/PNG/512/chevrondownoutline_110911.png" alt="icon" width="30px"/></span></li>
+            <li style={{display:"flex", justifyContent:"space-between", marginBottom:"10px", padding:"10px 0px 10px 0px"}}>Color<span><img style={{marginBottom:"-5px"}} src="https://cdn.icon-icons.com/icons2/1673/PNG/512/chevrondownoutline_110911.png" alt="icon" width="30px"/></span></li>
+            <li style={{display:"flex", justifyContent:"space-between", marginBottom:"10px", padding:"10px 0px 10px 0px"}}>Best For<span><img style={{marginBottom:"-5px"}} src="https://cdn.icon-icons.com/icons2/1673/PNG/512/chevrondownoutline_110911.png" alt="icon" width="30px"/></span></li>
         </ul>
         
         </div>

@@ -35,11 +35,13 @@ function Product(){
              {
              product.map((ele)=>{
               return  <div style={{textAlign:"left"}}>
-                {/* <Link to="/productDetails"> */}
+              {/* <Link to="/productDetails">  */}
               <img style={{cursor: "pointer"}} src={ele.img} alt="image" width="100%"/>
-              <div style={{}}>{ele.name}</div>
-              <div>{ele.gender}</div>
-              <div >MRP : ₹ {ele.price}</div>
+              {/* </Link> */}
+              <div>{ele.name}</div>
+              <div  style={{color:"rgb(152,152,152)"}}>Men's Shoes</div>
+              <div  style={{color:"rgb(152,152,152)"}}>1 Colour</div>
+              <div style={{marginTop:"20px" }} >MRP : ₹ {ele.price}</div>
                 </div>
               })
             }

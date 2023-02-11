@@ -38,7 +38,7 @@ function Navbar() {
         {/* for Buttton */}
         <div className="drpdown">
           <div className="dropdown">
-            <div
+            <div style={{marginRight:"10px", marginBottom:"10px"}}
               className="btn btn-secondary dropdown-toggle"
               type="button"
               id="dropdownMenuButton"
@@ -47,6 +47,7 @@ function Navbar() {
               aria-expanded="false"
             >
               Sort By 
+              <span><img style={{marginBottom:"-10px"}} src="https://cdn.icon-icons.com/icons2/1673/PNG/512/chevrondownoutline_110911.png" alt="icon" width="30px"/></span>
             </div>
           </div>
         </div>
