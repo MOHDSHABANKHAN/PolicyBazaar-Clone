@@ -1,39 +1,57 @@
-import './Navbar.css'
+import "./Navbar.css";
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
 
-function Navbar(){
+function Navbar() {
+  return (
+    <div
+      className="maindiv"
+      style={{
+        width: "90%",
+        marginTop: "-50px",
+        height: "50px",
+        alignItems: "center",
+        position: "fixed",
+        border: "2px solid black",
+        backgroundColor: "white",
+      }}
+    >
+      {/* rightside */}
 
-    return(
-        <div className= "maindiv">
+      <div>
+        Category
+      </div>
 
-            {/* rightside */}
+      {/* leftside */}
 
-            <h1>Men's Shoes</h1>
-
-
-            {/* leftside */}
-
-            <div style={{display:"flex"}}>
-            <h1>Men's Shoes</h1>
-
-
-            {/* for Buttton */}
-            <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Sort By</button>
-            <div id="myDropdown" class="dropdown-content">
-            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"/>
-            <a href="#about">About</a>
-            <a href="#base">Base</a>
-            <a href="#blog">Blog</a>
-            <a href="#contact">Contact</a>
-            <a href="#custom">Custom</a>
-            <a href="#support">Support</a>
-            <a href="#tools">Tools</a>
-            </div>
-            </div>
-
-
-</div>
+      <div style={{ display: "flex", cursor: "pointer" }}>
+        <div style={{ marginRight: "50px", display: "flex" }}>
+          <div style={{ paddingRight: "8px" }}>Hide Filters</div>
+          <img
+            style={{ marginTop: "3px" }}
+            width="16px"
+            height="16px"
+            src="https://e7.pngegg.com/pngimages/550/928/png-clipart-computer-icons-iconfinder-symbol-apple-icon-format-filter-icon-angle-text.png"
+            alt="icon"
+          />
         </div>
-    )
+
+        {/* for Buttton */}
+        <div className="drpdown">
+          <div className="dropdown">
+            <div
+              className="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Sort By 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 export default Navbar;
