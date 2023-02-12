@@ -1,0 +1,50 @@
+.container{
+   
+    margin:70px
+}
+.container-1 p{
+    color:#9c8d9c
+}
+
+.image-logo{
+ width: 50px;
+}
+.container p{
+    font-size: smaller;
+}
+label{
+    font-size: smaller; 
+}
+
+.container-2 input {
+    padding-left:15px;
+    height:35px;
+    width:350px;
+ margin:8px;
+ border:1px solid #9c8d9c
+
+ }
+ .container-3 input {
+    text-align: center;
+    height:35px;
+    width:170px;
+    margin:8px;
+    background-color: white;
+    border:1px solid #9c8d9c
+
+ }
+  .container-4 input {
+    height:20px;
+    width:50px;
+    
+
+ } 
+
+ .container-btn{
+    width: 380px; 
+  
+    height:35px;
+    background-color: black;
+    color: white;
+ }
+ 
