@@ -1,6 +1,8 @@
 import arrow from "../Cart/img/arrow.png";
 import './Payment.css';
+import { useNavigate } from "react-router-dom";
 let Payment = ()=>{
+  const navigate = useNavigate();
 
     let cards = [
     {
@@ -162,7 +164,8 @@ let Payment = ()=>{
             
             `;
         }else if(x === 5){
-          alert("Hello");
+          
+          navigate("/ordercompleted");
         }
       }
       

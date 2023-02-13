@@ -1,4 +1,5 @@
-import orderImg from "../Cart/img/orderPlaced.gif"
+import orderImg from "../Cart/img/orderPlaced.gif";
+import { Link } from "react-router-dom";
 let OrderCompleted = ()=>{
     let divStyle = {
         textAlign : "center",
@@ -21,8 +22,10 @@ let OrderCompleted = ()=>{
             <p>
             <img src={orderImg} alt="placed" />
             </p>
-            
+            <Link to={"/"}>
             <button style={btnStyle}>Go Back to Home</button>
+            </Link>
+            
         </div>
         
         </>
